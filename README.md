@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a utility for testing solidity contracts that implement EIP2612 (https://github.com/ethereum/EIPs/pull/2612).
+This is a utility for testing solidity contracts that implement EIP2612 (https://eips.ethereum.org/EIPS/eip-2612).
 
 EIP2612 is a standard to allow the ERC20 approve function to be called via a 3rd party (not the token holder), when the token holder signs an appropriate message. ERC20 token contracts need to be extended in order to support this capablility. For an example, see https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/extensions/draft-ERC20Permit.sol
 
